@@ -1,0 +1,24 @@
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.gallery img {
+  width: 360px;
+  cursor: pointer;
+}
